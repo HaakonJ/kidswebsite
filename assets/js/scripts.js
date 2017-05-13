@@ -6,6 +6,6 @@ var var2 = 'World!!';
 
 alert(var2);
 
-var nthing = 'new thing';
+var nthing = 'Stuff';
 
 alert(nthing);
