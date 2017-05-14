@@ -26,16 +26,25 @@ nav div
 	padding: 1px;
 }
 
-.Logo
+a.Logo
 {
 	flex: 1 0 430px;
+}
+
+.Logo{
+	width: 430px;
 	height: 175px;
+}
+
+a.DiscoverButton, a.PlayButton, a.WatchButton, a.GUButton
+{
+	flex: 1 0 310px;
 }
 
 .DiscoverButton, .PlayButton, .WatchButton, .GUButton
 {
 	margin-top: 25px;
-	flex: 1 0 310px;
+	width:310px;
 	height: 125px;
 }
 
