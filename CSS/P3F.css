@@ -22,37 +22,45 @@ nav div
 {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 10px;
+	margin: 0 1px;
 	padding: 1px;
 }
 
-a.Logo
+.navgroup
 {
-	flex: 1 0 430px;
+	flex:1 0 65%;
+	display: flex;
+	justify-content: space-around;
+}
+
+a .Logo 
+{
+	flex: 1 0 20%;
 }
 
 .Logo{
-	width: 430px;
-	height: 175px;
+	margin-top: 10px;
+	width: 100%;
+	height: 75px;
 }
 
 a.DiscoverButton, a.PlayButton, a.WatchButton, a.GUButton
 {
-	flex: 1 0 310px;
+	flex: 1 0 100%;
 }
 
 .DiscoverButton, .PlayButton, .WatchButton, .GUButton
 {
 	margin-top: 25px;
-	width:310px;
-	height: 125px;
+	width:100%;
+	height: 50px;
 }
 
 .Logo:hover
 {
 	background-color: darkgrey;
 	flex: 1 0 430px;
-	height: 175px;
+	height: 100px;
 }
 
 .DiscoverButton:hover, .PlayButton:hover, .WatchButton:hover, .GUButton:hover
@@ -60,7 +68,7 @@ a.DiscoverButton, a.PlayButton, a.WatchButton, a.GUButton
 	background-color: darkgrey;
 	margin-top: 25px;
 	flex: 1 0 310px;
-	height: 125px;
+	height: 75px;
 }
 
 .Logo, .DiscoverButton, .PlayButton, .WatchButton, .GUButton
