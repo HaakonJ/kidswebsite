@@ -129,19 +129,18 @@ main .movingImage
 	display: none;
 }
 
-img .secret
+.Secret
 {
-	flex: 1 0 110px;
 	height: 100px;
 }
 
-.secret:hover ~ .Dude
+.Secret:hover ~ .Dude
 {
 	flex: 1 1;
 	width: 5%;
 }
 
-.secret:hover ~ .superdude
+.Secret:hover ~ .superdude
 {
 	display: none;
 	visibility: hidden;
