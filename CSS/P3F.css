@@ -96,8 +96,29 @@ main div
 	z-index: 1;
 	width: 100%;
 	height: 500px;
-	background-image: url(../Images/cityscape-32210_1280.png);
-	background-repeat: repeat-x;
+	background-image: url(../Images/cityscapeCrope.png);
+	display: flex;
+}
+
+.superdude
+{
+	flex: 1 0 50%;
+}
+
+.thoughtbubble
+{
+	font-family: "Comic Sans MS";
+	margin: 0px 30px 0px 0px;
+	flex: 1 0 40%;
+	padding: 0px;
+}
+
+.thoughtbubble h1, .thoughtbubble strong
+{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: cornsilk;
+	height: 30%;
 }
 
 Section
@@ -163,6 +184,11 @@ Section
 	margin-top: 25px;
 	height: 125px;
 }
+	
+.superdude
+{
+	flex: 1 0 50%;
+}
 }
 
 @media(min-width:860px)
@@ -224,5 +250,10 @@ Section
 {
 	margin-top: 25px;
 	height: 225px;
+}
+	
+.superdude
+{
+	flex: 1 0 40%;
 }
 }
