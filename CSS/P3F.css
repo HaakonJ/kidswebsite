@@ -124,6 +124,29 @@ main .movingImage
 	width: 5%;
 }
 
+.Dude
+{
+	display: none;
+}
+
+img .secret
+{
+	flex: 1 0 110px;
+	height: 100px;
+}
+
+.secret:hover ~ .Dude
+{
+	flex: 1 1;
+	width: 5%;
+}
+
+.secret:hover ~ .superdude
+{
+	display: none;
+	visibility: hidden;
+}
+
 .thoughtbubble
 {
 	font-family: "Comic Sans MS";
