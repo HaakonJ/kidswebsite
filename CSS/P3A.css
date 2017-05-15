@@ -1,3 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
 
+.cloud1
+{
+	animation-name:slideshow;
+    animation-duration: 10s;
+    animation-delay:0;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in;
+	animation-iteration-count: infinite;
+}
+
+.cloud2
+{
+	animation-name:slideshow2;
+    animation-duration: 8s;
+    animation-delay:0;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in;
+	animation-iteration-count: infinite;
+}
+
+.cloud3
+{
+	animation-name:slideshow3;
+    animation-duration: 13s;
+    animation-delay:0;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
+
+@-webkit-keyframes slideshow2 {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
+
+@-webkit-keyframes slideshow3 {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
