@@ -103,14 +103,14 @@ main div
 
 .superdude
 {
-	flex: 1 0 15%;
+	flex: 1 0 5%;
 }
 
 .thoughtbubble
 {
 	font-family: "Comic Sans MS";
 	margin: 0px 10px 0px 0px;
-	flex: 1 0 30%;
+	flex: 1 0 20%;
 	padding: 0px;
 }
 
@@ -120,7 +120,7 @@ main div
 	padding: 10px;
 	padding-top: 20px;
 	background-color: cornsilk;
-	height: 35%;
+	height: 75%;
 }
 
 strong
